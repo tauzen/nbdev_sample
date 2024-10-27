@@ -1,0 +1,62 @@
+[
+  {
+    "objectID": "deck.html",
+    "href": "deck.html",
+    "title": "core",
+    "section": "",
+    "text": "source\n\nfoo\n\n foo ()",
+    "crumbs": [
+      "core"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "nbdev_sample",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation.",
+    "crumbs": [
+      "nbdev_sample"
+    ]
+  },
+  {
+    "objectID": "index.html#developer-guide",
+    "href": "index.html#developer-guide",
+    "title": "nbdev_sample",
+    "section": "Developer Guide",
+    "text": "Developer Guide\nIf you are new to using nbdev here are some useful pointers to get you started.\n\nInstall nbdev_sample in Development mode\n# make sure nbdev_sample package is installed in development mode\n$ pip install -e .\n\n# make changes under nbs/ directory\n# ...\n\n# compile to have changes apply to nbdev_sample\n$ nbdev_prepare",
+    "crumbs": [
+      "nbdev_sample"
+    ]
+  },
+  {
+    "objectID": "index.html#usage",
+    "href": "index.html#usage",
+    "title": "nbdev_sample",
+    "section": "Usage",
+    "text": "Usage\n\nInstallation\nInstall latest from the GitHub repository:\n$ pip install git+https://github.com/tauzen/nbdev_sample.git\nor from conda\n$ conda install -c tauzen nbdev_sample\nor from pypi\n$ pip install nbdev_sample\n\n\nDocumentation\nDocumentation can be found hosted on this GitHub repository’s pages. Additionally you can find package manager specific guidelines on conda and pypi respectively.",
+    "crumbs": [
+      "nbdev_sample"
+    ]
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "nbdev_sample",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\n1+1\n\n2",
+    "crumbs": [
+      "nbdev_sample"
+    ]
+  },
+  {
+    "objectID": "card.html",
+    "href": "card.html",
+    "title": "card",
+    "section": "",
+    "text": "suits = [\"♣️\", \"♦️\", \"♥️\", \"♠️\"]\nranks = [None, \"A\"] + [str(x) for x in range(2, 11)] + [\"J\", \"Q\", \"K\"]\n\nWe will be using number to represent playing card clubs and ranks. These are the suits:\n\nsuits\n\n['♣️', '♦️', '♥️', '♠️']\n\n\nFor instance the suit at index 0:\n\nsuits[0]\n\n'♣️'\n\n\nThese are the ranks:\n\nranks\n\n[None, 'A', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K']\n\n\nFor instance the rank at index 1 (note that there isn’t a playing card a position 0 since we want the ranks to match the indicies where possible)\n\nranks[1]\n\n'A'\n\n\n\nsource\n\nCard\n\n Card (suit:int, rank:int)\n\nA playing card, created by passing in rank from ranks and suit from suits\n\n\n\n\nType\nDetails\n\n\n\n\nsuit\nint\nAn index into suits\n\n\nrank\nint\nAn index into ranks\n\n\n\nHere’s an example of creating and displaying a card\n\nc = Card(suit=1, rank=1)\nc\n\nA♦️",
+    "crumbs": [
+      "card"
+    ]
+  }
+]
