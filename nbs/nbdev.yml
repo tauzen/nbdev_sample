@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "nbdev_sample"
+  site-url: "https://tauzen.github.io/nbdev_sample"
+  description: "testing nbdev"
+  repo-branch: main
+  repo-url: "https://github.com/tauzen/nbdev_sample"
