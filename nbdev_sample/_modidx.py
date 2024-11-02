@@ -6,6 +6,11 @@ d = { 'settings': { 'branch': 'main',
                 'git_url': 'https://github.com/tauzen/nbdev_sample',
                 'lib_path': 'nbdev_sample'},
   'syms': { 'nbdev_sample.card': { 'nbdev_sample.card.Card': ('card.html#card', 'nbdev_sample/card.py'),
+                                   'nbdev_sample.card.Card.__eq__': ('card.html#card.__eq__', 'nbdev_sample/card.py'),
+                                   'nbdev_sample.card.Card.__gt__': ('card.html#card.__gt__', 'nbdev_sample/card.py'),
                                    'nbdev_sample.card.Card.__init__': ('card.html#card.__init__', 'nbdev_sample/card.py'),
+                                   'nbdev_sample.card.Card.__lt__': ('card.html#card.__lt__', 'nbdev_sample/card.py'),
                                    'nbdev_sample.card.Card.__str__': ('card.html#card.__str__', 'nbdev_sample/card.py')},
-            'nbdev_sample.core': {'nbdev_sample.core.foo': ('deck.html#foo', 'nbdev_sample/core.py')}}}
+            'nbdev_sample.deck': { 'nbdev_sample.deck.Deck': ('deck.html#deck', 'nbdev_sample/deck.py'),
+                                   'nbdev_sample.deck.Deck.__init__': ('deck.html#deck.__init__', 'nbdev_sample/deck.py'),
+                                   'nbdev_sample.deck.Deck.__str__': ('deck.html#deck.__str__', 'nbdev_sample/deck.py')}}}

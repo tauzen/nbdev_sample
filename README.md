@@ -61,7 +61,15 @@ find package manager specific guidelines on
 Fill me in please! Don’t forget code examples:
 
 ``` python
-1+1
+Card(suit=2, rank=10)
 ```
 
-    2
+    10♥️
+
+Suits are numbered according to this list
+
+``` python
+suits
+```
+
+    ['♣️', '♦️', '♥️', '♠️']
